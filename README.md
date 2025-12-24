@@ -45,15 +45,15 @@ Each module is independent and communicates **only through events**.
 ## Project Structure
 
 event-driven-backtester/
-├── backtest/ # Backtest engine and event loop
-├── data/ # Market data handling
-├── events/ # Event definitions
-├── execution/ # Order execution simulation
-├── portfolio/ # Positions, holdings, and PnL logic
-├── strategy/ # Strategy interface and implementations
-├── utils/ # Logging and helper utilities
-├── requirements.txt
-└── README.md
+->backtest/ # Backtest engine and event loop
+->data/ # Market data handling
+->events/ # Event definitions
+->execution/ # Order execution simulation
+-> portfolio/ # Positions, holdings, and PnL logic
+->strategy/ # Strategy interface and implementations
+->utils/ # Logging and helper utilities
+->requirements.txt
+->README.md
 
 
 ---
